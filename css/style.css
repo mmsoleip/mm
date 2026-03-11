@@ -2203,3 +2203,15 @@ td, th {
 
 .footer-section .copyright-wrap {
   padding-top: 20px; }
+
+
+.copy_btn {
+  background:none;
+  border:none;
+  cursor:pointer;
+  color:#fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid #fff;}
