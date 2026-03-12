@@ -8,7 +8,7 @@ $(document).ready(function () {
     // and add a `data-clipboard-text` attribute with the WeChat ID.
     var clipboard = new Clipboard('.copy_btn', {
         text: function(trigger) {
-            // return $(trigger).attr('data-clipboard-text') || 'Lxeridium'; // Default to 'Lxeridium' if no data attribute is found
+            // return $(trigger).attr('data-clipboard-text') || 'weixin-id'; // Default to 'weixin-id' if no data attribute is found
             return $(trigger).attr('data-clipboard-text');
 
         }
@@ -27,6 +27,6 @@ $(document).ready(function () {
     clipboard.on('error', function (e) {
         console.error('Action:', e.action);
         console.error('Trigger:', e.trigger);
-        alert('复制失败，请手动复制微信号: Lxeridium');
+        alert('复制失败，请手动复制微信号: cloudsmi'); // Replace with your WeChat ID
     });
 });
