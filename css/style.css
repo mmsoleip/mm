@@ -2201,9 +2201,15 @@ td, th {
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
 
+.footer-section .social_links li img {
+      height: 40px;
+      font-size: 16px;
+      margin-right: 10px;
+      border-radius: 20px;
+      border: 2px solid #fff; }
+
 .footer-section .copyright-wrap {
   padding-top: 20px; }
-
 
 .copy_btn {
   background:none;
@@ -2211,7 +2217,7 @@ td, th {
   cursor:pointer;
   color:#fff;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-size: 16px;
   position: relative;
   border-radius: 20px;
   border: 2px solid #fff;}
